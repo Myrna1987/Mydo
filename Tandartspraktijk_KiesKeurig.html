@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"><title>Tandartsafspraak</title>
+        <title>Tandartsafspraak</title>
+        <h1>Tandartsafspraak</h1>
+        <p>In een van de oudste straten van Best, waar vroeger een kruidenierswinkel gevestigd was, staat sinds maart 2012 een moderne Tandartsenpraktijk.
+            Een praktijk waar wij met ons team, bestaande uit 3 tandartsen, 2 preventie-assistentes, 3 mondhygiënisten en de assistentes in een
+            gemoedelijke sfeer werken aan een perfecte mondgezondheid. Persoonlijke zorg en kwaliteit staan bij ons centraal.
+            Mocht u vragen hebben, neem gerust contact op met de praktijk.</p>
+        <P>Wij vinden het belangrijk u regelmatig te zien voor de controle van uw gebit en tandvlees.
+            Voor de controle kunt u meteen een volgende afspraak maken, of u wacht op het oproepkaartje wat u wordt toegezonden.
+            Bij acute pijn of andere spoedgevallen, belt u buiten openingstijden de tandartsenpost.</P>
+    </head>
+    <body>
+        <form id="contactform" action="https://formspree.io/f/mlekkkdv" method="post">
+        <figure>
+                <img src="Afbeeldingen/Praktijk-2802_Tandartsenpraktijk-Oranjestraat-Best.jpg"
+                alt="Tandarts" title="Tandarts"
+                width="300" height="150">
+                <img src="Afbeeldingen/Tandarts 1.jpg"
+                alt="Tandarts" title="Tandarts"
+                width="300" height="180">
+                <img src="Afbeeldingen/Tandarts 2.jpg"
+                alt="Tandarts" title="Tandarts"
+                width="300" height="100">
+            </figure>
+        <form>
+        <fieldset>
+        <legend>Persoonlijke gegevens</legend><br>
+        <label for="naam">Naam:</label>
+        <input id="naam" type="text" name="naam"><br><br>
+        <input type="radio" name="geslacht" value="man" checked>Man
+        <input type="radio" name="geslacht" value="vrouw">Vrouw
+        <input type="radio" name="geslacht" value="anders">Anders <br><br>
+        <label for="adres">Adres:</label>
+        <input type="text" id="adres" name="adres"><br><br>
+        <label for="postcode">Postcode:</label>
+        <input type="text" id="postcode" name="postcode"><br><br>
+        <label for=" woonplaats">Woonplaats:</label>
+        <input type="text" id="woonplaats" name="woonplaats"><br><br>
+        <label for=" Telefoonnummer">Telefoonnummer:</label>
+        <input type="text" id="Telefoonnummer" name="Telefoonnummer"><br><br>
+        </fieldset>
+        <fieldset>
+        <legend>Beschrijving van de klachten</legend><br>
+        <b> Selecteer een klacht</b><br>
+        <input type="checkbox" name="onderwerpen" value="Tand afgebroken">Tand afgebroken
+        <input type="checkbox" name="onderwerpen" value="Tandpijn">Tandpijn
+        <input type="checkbox" name="onderwerpen" value="Rood tandvlees">Rood tandvlees
+        <input type="checkbox" name="onderwerpen" value="Anders">Anders <br><br>
+        <label for="profielfoto">Selecteer een foto</label>
+        <input type="file" id="foto klacht" name="foto klacht"><br><br>
+        </fieldset><br>
+        <fieldset>
+        <legend>Toelichting van de klachten</legend><br>
+        <td><b>Omschijf uw klachten</b></td><br>
+        <td><textarea name="Toelichting van de klachten" maxlength="1500"></textarea></td></tr>
+        <p><b> Wanneer zijn de klachten begonnen</b><br>
+        <input type="date" name="datum" max="2080-12-31"><br></p>
+        </fieldset><br>
+        <input type="submit" value="Verzend">
+        </form>
+    </body>
+</html>
